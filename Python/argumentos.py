@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 # Importa el modulo del sistema operativo
 import os
@@ -26,4 +26,4 @@ dict = vars(args) # Convierte el objeto en un diccionario
 if(len(sys.argv) > 1): # Si hay argumentos
 	for i in dict: # Por cada argumento en el diccionario 
 		if(dict[i] != None): # Si el argumento es distinto de None
-			print(dict[i]) # Muestra el argumento
+			print("i: ", i, "\targ: ", dict[i]) # Muestra el argumento
