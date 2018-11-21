@@ -22,14 +22,14 @@
 > git add -A
 
 ## Guardar cambios al repositorio local
-> git commit -m _mensaje de lo actualizado_
+> git commit -m "_mensaje-de-lo-actualizado_"
 
 ## Subir cambios del repositorio local al remoto (GitHub)
-> git push 
+> git push  
 Ingresar usuario y contraseña
 
 ## Descargar cambios del repositorio remoto (GitHub) al local
-> git pull 
+> git pull  
 Es lo mismo que `git fetch` seguido de `git merge FETCH_HEAD`
 
 ## Ayuda sobre los comandos
