@@ -1,4 +1,4 @@
-#Agregar entrada al menu de GNOME 
+# Agregar entrada al menu de GNOME 
 
 1. Crear archivo .desktop en
 
