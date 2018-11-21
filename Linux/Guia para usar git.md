@@ -25,7 +25,10 @@ Ayuda sobre los comandos | `git comando --help`
 ## Procedimiento para subir archivo al repositorio remoto
 
 1. Comprobar que no haya actualizaciones
-> git pull
+> git fetch  
+> git status  
+
+   En caso de haber actualizaciones, descargarlas con `git pull`
 2. Agregar modificaciones al índice
 > git add .
 3. Guardar cambios en el repositorio local
