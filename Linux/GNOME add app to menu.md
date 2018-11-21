@@ -2,10 +2,10 @@
 
 1. Crear archivo .desktop en
 
-`/usr/share/applications/` si para todos los usuarios
+`/usr/share/applications/` si es para todos los usuarios  
 `/home/<usuario>/.local/share/applications/` si es para un usuario
 
->sudo nano <ruta>/.<nombre-de-la-app>.desktop
+>sudo nano RUTA/NOMBRE-DE-LA-ENTRADA.desktop
 
 2. Editar el archivo con la siguiente información
 
