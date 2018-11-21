@@ -26,4 +26,4 @@ dict = vars(args) # Convierte el objeto en un diccionario
 if(len(sys.argv) > 1): # Si hay argumentos
 	for i in dict: # Por cada argumento en el diccionario 
 		if(dict[i] != None): # Si el argumento es distinto de None
-			print("i: ", i, "\targ: ", dict[i]) # Muestra el argumento
+			print("i: ", i, "\tvalor: ", dict[i]) # Muestra el argumento
