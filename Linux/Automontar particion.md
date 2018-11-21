@@ -38,5 +38,5 @@ UUID=01234567ABCDEF /mnt/datos auto defaults 0 2
 > CTRL+X -> S -> Enter
 
 7. Agregar permisos a la carpeta
-> sudo chmod -Rv 777 /mnt/_nombre_
+> sudo chmod -Rv 777 /mnt/_nombre_  
 > sudo chown -R _usuario_ /mnt/_nombre_
