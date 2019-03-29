@@ -1,6 +1,6 @@
 # Agregar ejecutable a la terminal
 
-1. Editar el archivo `.bashrc` dsa
+1. Editar el archivo `.bashrc`
 > sudo nano ~/.bashrc
 
 2. Agregar al final del archivo lo siguiente
