@@ -3,7 +3,7 @@
 1. Editar el archivo `~/.bashrc`
 > sudo nano ~/.bashrc
 
-2. Agregar al final del archivo el comando en una nueva linea
+2. Agregar al final del archivo el comando en una nueva linea 
 Ej:
 ```
 sudo python3 script.py
@@ -19,7 +19,7 @@ sudo python3 script.py
 1. Editar el archivo `/etc/rc.local`
 > sudo nano /etc/rc.local
 
-2. Agregar antes de la linea `exit 0` el comando en una nueva linea
+2. Agregar antes de la linea `exit 0` el comando en una nueva linea 
 Ej:
 ```
 sudo python3 script.py
