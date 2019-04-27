@@ -14,7 +14,6 @@ sudo chmod +x casebutton.py
 
 # Move the script to PATH
 sudo mv casebutton.py /usr/bin/casebutton
-echo "export PATH=$PATH:/usr/bin/casebutton" | sudo tee -a ~/.bashrc
 
 echo -e "\n\nExecute script at start"
 echo "--------------------------------"
@@ -23,7 +22,10 @@ echo "--------------------------------"
 sudo head -n -1 /etc/rc.local > rclocal.tmp && sudo mv rclocal.tmp /etc/rc.local
 
 # Add command to rc.local 
-echo "casebutton" | sudo tee -a /etc/rc.local
+echo "sudo casebutton &" | sudo tee -a /etc/rc.local
 
 # Add exit 0
 echo "exit 0" | sudo tee -a /etc/rc.local
+
+# Add execution to rc.local
+sudo chmod +x /etc/rc.local
