@@ -13,7 +13,8 @@ wget raw.githubusercontent.com/luxarts/Useful/master/Python/casebutton.py
 sudo chmod +x casebutton.py
 
 # Move the script to PATH
-sudo mv casebutton.py /usr/local/bin/casebutton
+sudo mv casebutton.py /usr/bin/casebutton
+echo "export PATH=$PATH:/usr/bin/casebutton" | sudo tee -a ~/.bashrc
 
 echo -e "\n\nExecute script at start"
 echo "--------------------------------"
