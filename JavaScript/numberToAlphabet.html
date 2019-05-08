@@ -1,0 +1,17 @@
+<script type="text/javascript">
+/* @brief Return the alphabetized value from a numeric one
+ * @param number: Number to convert
+ * @return Value of the number converted to alphabet character.
+ * @example 0="A", 26="Z", 27="AA", 52="AZ"
+ */
+function numberToAlphabet(number){
+	var letters = "";
+	number++;
+	while(number>0){
+		number--;
+		letters = String.fromCharCode(65 + (number % 26)) + letters;
+		number = Math.floor(number / 26);
+	};
+	return letters;
+}
+</script>
