@@ -1,0 +1,3 @@
+```
+set -Ux key value
+```
