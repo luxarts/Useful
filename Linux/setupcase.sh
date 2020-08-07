@@ -21,7 +21,13 @@ echo "--------------------------------"
 # Delete last line from rc.local ("exit 0" command)
 sudo head -n -1 /etc/rc.local > rclocal.tmp && sudo mv rclocal.tmp /etc/rc.local
 
-# Add command to rc.local 
+# Turn on the GPIO 27
+echo "# Turn on the GPIO 27"
+echo "sudo echo \"27\" > /sys/class/gpio/export" | sudo tee -a /etc/rc.local
+echo "sudo echo \"out\" > /sys/class/gpio/gpio27/direction" | sudo tee -a /etc/rc.local
+echo "sudo echo \"1\" > /sys/class/gpio/gpio27/value" | sudo tee -a /etc/rc.local
+
+echo "# Read the power button"
 echo "sudo casebutton &" | sudo tee -a /etc/rc.local
 
 # Add exit 0
